@@ -955,7 +955,7 @@ design rules under a new name.</description>
 <element name="C4" library="SparkFun-Capacitors" package="EIA7343" value="" x="7.62" y="3.81" rot="R180"/>
 <element name="C5" library="SparkFun-Capacitors" package="0805" value="" x="12.7" y="10.16" rot="R180"/>
 <element name="C6" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="22.86" y="30.48"/>
-<element name="C7" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="21.59" y="44.45"/>
+<element name="C7" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="21.59" y="43.18"/>
 <element name="R3" library="SparkFun-Resistors" package="0805" value="" x="12.7" y="12.7"/>
 <element name="LED1" library="adafruit" package="CHIPLED_1206" value="" x="13.97" y="15.24" rot="R90"/>
 <element name="IC3" library="linear" package="SO08" value="LM741D" x="35.56" y="30.48"/>
@@ -1042,7 +1042,7 @@ design rules under a new name.</description>
 <wire x1="40.64" y1="45.72" x2="47.89" y2="58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="24.06" y1="41.1226" x2="40.64" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="22.46" y1="41.1226" x2="24.06" y2="41.1226" width="0" layer="19" extent="1-1"/>
-<wire x1="22.49" y1="44.45" x2="22.46" y2="41.1226" width="0" layer="19" extent="1-1"/>
+<wire x1="22.49" y1="43.18" x2="22.46" y2="41.1226" width="0" layer="19" extent="1-1"/>
 <wire x1="23.26" y1="32.5374" x2="24.06" y2="41.1226" width="0" layer="19" extent="1-1"/>
 <wire x1="23.76" y1="30.48" x2="23.26" y2="32.5374" width="0" layer="19" extent="1-1"/>
 <wire x1="17.41" y1="30.48" x2="23.26" y2="32.5374" width="0" layer="19" extent="1-16"/>
@@ -1056,7 +1056,7 @@ design rules under a new name.</description>
 <wire x1="8.2296" y1="10.4394" x2="11.8" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="10.79" y1="3.81" x2="11.8" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="28.575" y1="22.8" x2="20.69" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="45.72" x2="22.49" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="45.72" x2="22.49" y2="43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="7.62" y1="45.72" x2="12.7" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="2.54" y1="45.72" x2="7.62" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="36.195" x2="7.62" y2="45.72" width="0" layer="19" extent="1-1"/>
@@ -1103,7 +1103,7 @@ design rules under a new name.</description>
 <wire x1="34.925" y1="33.08" x2="31.38" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="23.26" y1="41.1226" x2="31.38" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="21.66" y1="41.1226" x2="23.26" y2="41.1226" width="0" layer="19" extent="1-1"/>
-<wire x1="20.69" y1="44.45" x2="21.66" y2="41.1226" width="0" layer="19" extent="1-1"/>
+<wire x1="20.69" y1="43.18" x2="21.66" y2="41.1226" width="0" layer="19" extent="1-1"/>
 <wire x1="20.86" y1="32.5374" x2="21.66" y2="41.1226" width="0" layer="19" extent="1-1"/>
 <wire x1="22.46" y1="32.5374" x2="20.86" y2="32.5374" width="0" layer="19" extent="1-1"/>
 <wire x1="21.96" y1="30.48" x2="22.46" y2="32.5374" width="0" layer="19" extent="1-1"/>
