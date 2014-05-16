@@ -34,11 +34,9 @@ float getRawData(){
     Serial.print("Raw data:");
     Serial.print(MCP_ADC.byteCode, DEC);
     Serial.println();
-    Serial.print("Raw data(BIN):");
-    Serial.print(MCP_ADC.byteCode, BIN);
+     Serial.print(MCP_ADC.byteCode, BIN);
     Serial.println();
     delay(1000);
-    
   }
 }
 
@@ -52,7 +50,7 @@ void loop(){
   Serial.print("Analog 0  :");
   
   sig_plus = analogRead(A0) *(5/1023.0);
-  sig_minus = analogRead(A0) *(5/1023.0);
+  sig_minus = analogRead(A1) *(5/1023.0);
   Serial.print ( "Analog 0: " );
   Serial.print(sig_plus);
   Serial.print ("V.");
