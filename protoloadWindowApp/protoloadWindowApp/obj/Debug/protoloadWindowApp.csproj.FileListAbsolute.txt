@@ -1,0 +1,8 @@
+D:\protoLoad\protoloadWindowApp\protoloadWindowApp\bin\Debug\protoloadWindowApp.exe.config
+D:\protoLoad\protoloadWindowApp\protoloadWindowApp\obj\Debug\protoloadWindowApp.mainWindow.resources
+D:\protoLoad\protoloadWindowApp\protoloadWindowApp\obj\Debug\protoloadWindowApp.Properties.Resources.resources
+D:\protoLoad\protoloadWindowApp\protoloadWindowApp\obj\Debug\protoloadWindowApp.csproj.GenerateResource.Cache
+D:\protoLoad\protoloadWindowApp\protoloadWindowApp\bin\Debug\protoloadWindowApp.exe
+D:\protoLoad\protoloadWindowApp\protoloadWindowApp\bin\Debug\protoloadWindowApp.pdb
+D:\protoLoad\protoloadWindowApp\protoloadWindowApp\obj\Debug\protoloadWindowApp.exe
+D:\protoLoad\protoloadWindowApp\protoloadWindowApp\obj\Debug\protoloadWindowApp.pdb
