@@ -10,6 +10,9 @@
 #define BOUNDARY 5.0
 #define CALCULATE_TIME 15000
 
+#define MCOFF 99.8181818181818
+#define INTERCEPT 254.054545454545
+
 #define SS 10
 
 float fRawData;
@@ -131,10 +134,20 @@ void loop(){
     
     while(true){
       fMetricWeight = getAverageofSmooth();
-          
-      Serial.print( fMetricWeight, DEC );
-      Serial.print(" Kg");
-      Serial.println();
+      if( fMetricWeight == 0 ){
+        Serial.print( fMetricWeight, DEC );
+        Serial.print(" g");
+        Serial.println();
+        continue;
+      }
+      else if(fMetricWeight > 0){
+        fMetricWeight =  (MCOFF * fMetricWeight) -  INTERCEPT ;
+        Serial.print( fMetricWeight, DEC );
+        Serial.print(" g");
+        Serial.println();
+        continue;
+      }
+      
     }
     
   #endif

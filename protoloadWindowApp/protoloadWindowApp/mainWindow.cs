@@ -263,10 +263,17 @@ namespace protoloadWindowApp
         private void _serialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             //Initialize a buffer to hold the received data 
-            string buffer;
+            try
+            {
+                string buffer;
 
-            buffer = _serialPort.ReadLine();
-            Invoke(new doDumpVerbose(dumpVerboseUpdate),buffer);
+                buffer = _serialPort.ReadLine();
+                Invoke(new doDumpVerbose(dumpVerboseUpdate), buffer);
+            }
+            catch (Exception exp)
+            {
+                //continue
+            }
         }
 
         private void dumpVerboseUpdate(string value)
